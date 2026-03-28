@@ -1,0 +1,716 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		80388A1D2F31E714005E2B1D /* FutariiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80388A1C2F31E714005E2B1D /* FutariiApp.swift */; };
+		80388A1F2F31E714005E2B1D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80388A1E2F31E714005E2B1D /* ContentView.swift */; };
+		80388A212F31E715005E2B1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80388A202F31E715005E2B1D /* Assets.xcassets */; };
+		80388A242F31E715005E2B1D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80388A232F31E715005E2B1D /* Preview Assets.xcassets */; };
+		80388A2E2F31E715005E2B1D /* FutariiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80388A2D2F31E715005E2B1D /* FutariiTests.swift */; };
+		80388A382F31E715005E2B1D /* FutariiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80388A372F31E715005E2B1D /* FutariiUITests.swift */; };
+		80388A3A2F31E715005E2B1D /* FutariiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80388A392F31E715005E2B1D /* FutariiUITestsLaunchTests.swift */; };
+		80388A5C2F31E931005E2B1D /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80388A482F31E931005E2B1D /* SettingsView.swift */; };
+		80388A5D2F31E931005E2B1D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80388A4A2F31E931005E2B1D /* HomeView.swift */; };
+		80388A5E2F31E931005E2B1D /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80388A4B2F31E931005E2B1D /* CalendarView.swift */; };
+		80388A5F2F31E931005E2B1D /* LearningListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80388A4D2F31E931005E2B1D /* LearningListView.swift */; };
+		80388A602F31E931005E2B1D /* ToDoItemForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80388A4F2F31E931005E2B1D /* ToDoItemForm.swift */; };
+		80388A612F31E931005E2B1D /* ToDoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80388A502F31E931005E2B1D /* ToDoListView.swift */; };
+		80388A622F31E931005E2B1D /* LifeEventSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80388A522F31E931005E2B1D /* LifeEventSelectionView.swift */; };
+		80388A632F31E931005E2B1D /* FloatingActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80388A532F31E931005E2B1D /* FloatingActionButton.swift */; };
+		80388A642F31E931005E2B1D /* ComparisonListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80388A552F31E931005E2B1D /* ComparisonListView.swift */; };
+		80388A652F31E931005E2B1D /* ComparisonDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80388A562F31E931005E2B1D /* ComparisonDetailView.swift */; };
+		80388A662F31E931005E2B1D /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80388A582F31E931005E2B1D /* AppState.swift */; };
+		80388A672F31E931005E2B1D /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80388A592F31E931005E2B1D /* MockData.swift */; };
+		80388A682F31E931005E2B1D /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80388A5A2F31E931005E2B1D /* Models.swift */; };
+		80388A692F31E931005E2B1D /* AppDesignSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80388A5B2F31E931005E2B1D /* AppDesignSystem.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		80388A2A2F31E715005E2B1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80388A112F31E714005E2B1D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80388A182F31E714005E2B1D;
+			remoteInfo = Futarii;
+		};
+		80388A342F31E715005E2B1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80388A112F31E714005E2B1D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80388A182F31E714005E2B1D;
+			remoteInfo = Futarii;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		80388A192F31E714005E2B1D /* Futarii.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Futarii.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80388A1C2F31E714005E2B1D /* FutariiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FutariiApp.swift; sourceTree = "<group>"; };
+		80388A1E2F31E714005E2B1D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		80388A202F31E715005E2B1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		80388A232F31E715005E2B1D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		80388A292F31E715005E2B1D /* FutariiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FutariiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		80388A2D2F31E715005E2B1D /* FutariiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FutariiTests.swift; sourceTree = "<group>"; };
+		80388A332F31E715005E2B1D /* FutariiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FutariiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		80388A372F31E715005E2B1D /* FutariiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FutariiUITests.swift; sourceTree = "<group>"; };
+		80388A392F31E715005E2B1D /* FutariiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FutariiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		80388A482F31E931005E2B1D /* SettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		80388A4A2F31E931005E2B1D /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		80388A4B2F31E931005E2B1D /* CalendarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		80388A4D2F31E931005E2B1D /* LearningListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LearningListView.swift; sourceTree = "<group>"; };
+		80388A4F2F31E931005E2B1D /* ToDoItemForm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoItemForm.swift; sourceTree = "<group>"; };
+		80388A502F31E931005E2B1D /* ToDoListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoListView.swift; sourceTree = "<group>"; };
+		80388A522F31E931005E2B1D /* LifeEventSelectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LifeEventSelectionView.swift; sourceTree = "<group>"; };
+		80388A532F31E931005E2B1D /* FloatingActionButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatingActionButton.swift; sourceTree = "<group>"; };
+		80388A552F31E931005E2B1D /* ComparisonListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComparisonListView.swift; sourceTree = "<group>"; };
+		80388A562F31E931005E2B1D /* ComparisonDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComparisonDetailView.swift; sourceTree = "<group>"; };
+		80388A582F31E931005E2B1D /* AppState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		80388A592F31E931005E2B1D /* MockData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
+		80388A5A2F31E931005E2B1D /* Models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		80388A5B2F31E931005E2B1D /* AppDesignSystem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDesignSystem.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80388A162F31E714005E2B1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80388A262F31E715005E2B1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80388A302F31E715005E2B1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		80388A102F31E714005E2B1D = {
+			isa = PBXGroup;
+			children = (
+				80388A572F31E931005E2B1D /* Models */,
+				80388A462F31E931005E2B1D /* Views */,
+				80388A1B2F31E714005E2B1D /* Futarii */,
+				80388A2C2F31E715005E2B1D /* FutariiTests */,
+				80388A362F31E715005E2B1D /* FutariiUITests */,
+				80388A1A2F31E714005E2B1D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		80388A1A2F31E714005E2B1D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80388A192F31E714005E2B1D /* Futarii.app */,
+				80388A292F31E715005E2B1D /* FutariiTests.xctest */,
+				80388A332F31E715005E2B1D /* FutariiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80388A1B2F31E714005E2B1D /* Futarii */ = {
+			isa = PBXGroup;
+			children = (
+				80388A1C2F31E714005E2B1D /* FutariiApp.swift */,
+				80388A1E2F31E714005E2B1D /* ContentView.swift */,
+				80388A202F31E715005E2B1D /* Assets.xcassets */,
+				80388A222F31E715005E2B1D /* Preview Content */,
+			);
+			path = Futarii;
+			sourceTree = "<group>";
+		};
+		80388A222F31E715005E2B1D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				80388A232F31E715005E2B1D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		80388A2C2F31E715005E2B1D /* FutariiTests */ = {
+			isa = PBXGroup;
+			children = (
+				80388A2D2F31E715005E2B1D /* FutariiTests.swift */,
+			);
+			path = FutariiTests;
+			sourceTree = "<group>";
+		};
+		80388A362F31E715005E2B1D /* FutariiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				80388A372F31E715005E2B1D /* FutariiUITests.swift */,
+				80388A392F31E715005E2B1D /* FutariiUITestsLaunchTests.swift */,
+			);
+			path = FutariiUITests;
+			sourceTree = "<group>";
+		};
+		80388A462F31E931005E2B1D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				80388A472F31E931005E2B1D /* Settings */,
+				80388A492F31E931005E2B1D /* Home */,
+				80388A4C2F31E931005E2B1D /* Learning */,
+				80388A4E2F31E931005E2B1D /* ToDo */,
+				80388A512F31E931005E2B1D /* Common */,
+				80388A542F31E931005E2B1D /* Comparison */,
+			);
+			name = Views;
+			path = Futarii/Views;
+			sourceTree = "<group>";
+		};
+		80388A472F31E931005E2B1D /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				80388A482F31E931005E2B1D /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		80388A492F31E931005E2B1D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				80388A4A2F31E931005E2B1D /* HomeView.swift */,
+				80388A4B2F31E931005E2B1D /* CalendarView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		80388A4C2F31E931005E2B1D /* Learning */ = {
+			isa = PBXGroup;
+			children = (
+				80388A4D2F31E931005E2B1D /* LearningListView.swift */,
+			);
+			path = Learning;
+			sourceTree = "<group>";
+		};
+		80388A4E2F31E931005E2B1D /* ToDo */ = {
+			isa = PBXGroup;
+			children = (
+				80388A4F2F31E931005E2B1D /* ToDoItemForm.swift */,
+				80388A502F31E931005E2B1D /* ToDoListView.swift */,
+			);
+			path = ToDo;
+			sourceTree = "<group>";
+		};
+		80388A512F31E931005E2B1D /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				80388A522F31E931005E2B1D /* LifeEventSelectionView.swift */,
+				80388A532F31E931005E2B1D /* FloatingActionButton.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		80388A542F31E931005E2B1D /* Comparison */ = {
+			isa = PBXGroup;
+			children = (
+				80388A552F31E931005E2B1D /* ComparisonListView.swift */,
+				80388A562F31E931005E2B1D /* ComparisonDetailView.swift */,
+			);
+			path = Comparison;
+			sourceTree = "<group>";
+		};
+		80388A572F31E931005E2B1D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				80388A582F31E931005E2B1D /* AppState.swift */,
+				80388A592F31E931005E2B1D /* MockData.swift */,
+				80388A5A2F31E931005E2B1D /* Models.swift */,
+				80388A5B2F31E931005E2B1D /* AppDesignSystem.swift */,
+			);
+			name = Models;
+			path = Futarii/Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80388A182F31E714005E2B1D /* Futarii */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80388A3D2F31E715005E2B1D /* Build configuration list for PBXNativeTarget "Futarii" */;
+			buildPhases = (
+				80388A152F31E714005E2B1D /* Sources */,
+				80388A162F31E714005E2B1D /* Frameworks */,
+				80388A172F31E714005E2B1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Futarii;
+			productName = Futarii;
+			productReference = 80388A192F31E714005E2B1D /* Futarii.app */;
+			productType = "com.apple.product-type.application";
+		};
+		80388A282F31E715005E2B1D /* FutariiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80388A402F31E715005E2B1D /* Build configuration list for PBXNativeTarget "FutariiTests" */;
+			buildPhases = (
+				80388A252F31E715005E2B1D /* Sources */,
+				80388A262F31E715005E2B1D /* Frameworks */,
+				80388A272F31E715005E2B1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80388A2B2F31E715005E2B1D /* PBXTargetDependency */,
+			);
+			name = FutariiTests;
+			productName = FutariiTests;
+			productReference = 80388A292F31E715005E2B1D /* FutariiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		80388A322F31E715005E2B1D /* FutariiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80388A432F31E715005E2B1D /* Build configuration list for PBXNativeTarget "FutariiUITests" */;
+			buildPhases = (
+				80388A2F2F31E715005E2B1D /* Sources */,
+				80388A302F31E715005E2B1D /* Frameworks */,
+				80388A312F31E715005E2B1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80388A352F31E715005E2B1D /* PBXTargetDependency */,
+			);
+			name = FutariiUITests;
+			productName = FutariiUITests;
+			productReference = 80388A332F31E715005E2B1D /* FutariiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80388A112F31E714005E2B1D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					80388A182F31E714005E2B1D = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					80388A282F31E715005E2B1D = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 80388A182F31E714005E2B1D;
+					};
+					80388A322F31E715005E2B1D = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 80388A182F31E714005E2B1D;
+					};
+				};
+			};
+			buildConfigurationList = 80388A142F31E714005E2B1D /* Build configuration list for PBXProject "Futarii" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 80388A102F31E714005E2B1D;
+			productRefGroup = 80388A1A2F31E714005E2B1D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80388A182F31E714005E2B1D /* Futarii */,
+				80388A282F31E715005E2B1D /* FutariiTests */,
+				80388A322F31E715005E2B1D /* FutariiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80388A172F31E714005E2B1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80388A242F31E715005E2B1D /* Preview Assets.xcassets in Resources */,
+				80388A212F31E715005E2B1D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80388A272F31E715005E2B1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80388A312F31E715005E2B1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80388A152F31E714005E2B1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80388A692F31E931005E2B1D /* AppDesignSystem.swift in Sources */,
+				80388A5E2F31E931005E2B1D /* CalendarView.swift in Sources */,
+				80388A5C2F31E931005E2B1D /* SettingsView.swift in Sources */,
+				80388A652F31E931005E2B1D /* ComparisonDetailView.swift in Sources */,
+				80388A612F31E931005E2B1D /* ToDoListView.swift in Sources */,
+				80388A5D2F31E931005E2B1D /* HomeView.swift in Sources */,
+				80388A672F31E931005E2B1D /* MockData.swift in Sources */,
+				80388A602F31E931005E2B1D /* ToDoItemForm.swift in Sources */,
+				80388A642F31E931005E2B1D /* ComparisonListView.swift in Sources */,
+				80388A1F2F31E714005E2B1D /* ContentView.swift in Sources */,
+				80388A682F31E931005E2B1D /* Models.swift in Sources */,
+				80388A622F31E931005E2B1D /* LifeEventSelectionView.swift in Sources */,
+				80388A632F31E931005E2B1D /* FloatingActionButton.swift in Sources */,
+				80388A662F31E931005E2B1D /* AppState.swift in Sources */,
+				80388A5F2F31E931005E2B1D /* LearningListView.swift in Sources */,
+				80388A1D2F31E714005E2B1D /* FutariiApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80388A252F31E715005E2B1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80388A2E2F31E715005E2B1D /* FutariiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80388A2F2F31E715005E2B1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80388A382F31E715005E2B1D /* FutariiUITests.swift in Sources */,
+				80388A3A2F31E715005E2B1D /* FutariiUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		80388A2B2F31E715005E2B1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80388A182F31E714005E2B1D /* Futarii */;
+			targetProxy = 80388A2A2F31E715005E2B1D /* PBXContainerItemProxy */;
+		};
+		80388A352F31E715005E2B1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80388A182F31E714005E2B1D /* Futarii */;
+			targetProxy = 80388A342F31E715005E2B1D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		80388A3B2F31E715005E2B1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		80388A3C2F31E715005E2B1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80388A3E2F31E715005E2B1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Futarii/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = HDA74L3PK5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.tabechan.futarii;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "Masaaki Taberi";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		80388A3F2F31E715005E2B1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Futarii/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = HDA74L3PK5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.tabechan.futarii;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "Masaaki Taberi";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		80388A412F31E715005E2B1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.FutariiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Futarii.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Futarii";
+			};
+			name = Debug;
+		};
+		80388A422F31E715005E2B1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.FutariiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Futarii.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Futarii";
+			};
+			name = Release;
+		};
+		80388A442F31E715005E2B1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.FutariiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Futarii;
+			};
+			name = Debug;
+		};
+		80388A452F31E715005E2B1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.FutariiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Futarii;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80388A142F31E714005E2B1D /* Build configuration list for PBXProject "Futarii" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80388A3B2F31E715005E2B1D /* Debug */,
+				80388A3C2F31E715005E2B1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80388A3D2F31E715005E2B1D /* Build configuration list for PBXNativeTarget "Futarii" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80388A3E2F31E715005E2B1D /* Debug */,
+				80388A3F2F31E715005E2B1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80388A402F31E715005E2B1D /* Build configuration list for PBXNativeTarget "FutariiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80388A412F31E715005E2B1D /* Debug */,
+				80388A422F31E715005E2B1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80388A432F31E715005E2B1D /* Build configuration list for PBXNativeTarget "FutariiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80388A442F31E715005E2B1D /* Debug */,
+				80388A452F31E715005E2B1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 80388A112F31E714005E2B1D /* Project object */;
+}
